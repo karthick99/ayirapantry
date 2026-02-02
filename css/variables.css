@@ -1,0 +1,25 @@
+:root {
+    /* Brand Colors */
+    --color-bg-primary: #121212;   /* Rich Black */
+    --color-bg-secondary: #0F1710; /* Very dark green/black tint */
+    --color-accent-gold: #D4AF37;  /* Metallic Gold */
+    --color-accent-green: #2E8B57; /* Brand Green */
+    --color-text-primary: #ECECEC; /* Off-white for readability */
+    --color-text-secondary: #A0A0A0; /* Muted text */
+    --color-border: #333333;
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing */
+    --spacing-xs: 0.5rem;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --spacing-xl: 6rem;
+
+    /* Transitions */
+    --transition-fast: 0.3s ease;
+    --transition-smooth: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}

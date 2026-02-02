@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Ayira Pantry</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Ayira Pantry" class="logo-img">
+                </a>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="shop.html" class="active">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="process.html">Our Process</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <a href="#" class="icon-link"><i class="fas fa-search"></i></a>
+                <a href="#" class="icon-link"><i class="fas fa-user"></i></a>
+                <a href="#" class="icon-link cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Title -->
+    <section class="page-header section-padding bg-darker text-center">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p>Pure, Wood Pressed, and Traditionally Made.</p>
+        </div>
+    </section>
+
+    <!-- Shop Container -->
+    <section class="shop-section section-padding">
+        <div class="container">
+            <!-- Filter placeholder (can be expanded later) -->
+            <div class="shop-filters"
+                style="margin-bottom: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                <button class="btn-secondary active">All Oils</button>
+                <button class="btn-secondary">Groundnut Oil</button>
+                <button class="btn-secondary">Coconut Oil</button>
+                <button class="btn-secondary">Sesame Oil</button>
+            </div>
+
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="badge">Best Seller</span>
+                        <img src="images/product_placeholder.png" alt="Cold Pressed Groundnut Oil">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="far fa-heart"></i></button>
+                            <button class="action-btn"><i class="far fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cold Pressed Groundnut Oil</h3>
+                        <div class="rating">
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <span>(120)</span>
+                        </div>
+                        <div class="price">
+                            <span class="currency">₹</span>350 <span class="size">/ 1L</span>
+                        </div>
+                        <div class="size-selector">
+                            <button class="size-btn active">1L</button>
+                            <button class="size-btn">5L</button>
+                        </div>
+                        <button class="btn-primary btn-full add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product_placeholder.png" alt="Cold Pressed Coconut Oil">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="far fa-heart"></i></button>
+                            <button class="action-btn"><i class="far fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cold Pressed Coconut Oil</h3>
+                        <div class="rating">
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star-half-alt text-gold"></i>
+                            <span>(85)</span>
+                        </div>
+                        <div class="price">
+                            <span class="currency">₹</span>450 <span class="size">/ 1L</span>
+                        </div>
+                        <div class="size-selector">
+                            <button class="size-btn active">1L</button>
+                            <button class="size-btn">5L</button>
+                        </div>
+                        <button class="btn-primary btn-full add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product_placeholder.png" alt="Cold Pressed Sesame Oil">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="far fa-heart"></i></button>
+                            <button class="action-btn"><i class="far fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Cold Pressed Nalla Ennai</h3>
+                        <div class="rating">
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <i class="fas fa-star text-gold"></i>
+                            <span>(95)</span>
+                        </div>
+                        <div class="price">
+                            <span class="currency">₹</span>550 <span class="size">/ 1L</span>
+                        </div>
+                        <div class="size-selector">
+                            <button class="size-btn active">1L</button>
+                            <button class="size-btn">5L</button>
+                        </div>
+                        <button class="btn-primary btn-full add-to-cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <img src="images/logo.png" alt="Ayira Pantry" class="footer-logo">
+                <p>Bringing traditional purity back to your kitchen with temperature-controlled cold pressed oils.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="shop.html">Shop Oils</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fab fa-whatsapp"></i> +91 12345 67890</li>
+                    <li><i class="far fa-envelope"></i> hello@ayirapantry.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Chennai, Tamil Nadu</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Ayira Pantry. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/911234567890" class="floating-whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
